@@ -1,5 +1,4 @@
-import dash
-from dash import html, dcc, Output, Input
+from dash import Dash, html, dcc, Output, Input
 import plotly.express as px
 import pandas as pd
 
@@ -14,7 +13,7 @@ dataUnique = pd.DataFrame({
     "totalWins": [5, 4, 4, 3, 2, 2, 1, 1]
 })
 
-app = dash.Dash()
+app = Dash()
 
 #this line is for the code to work on the server
 server = app.server
