@@ -65,4 +65,4 @@ def updateGraph(option, year):
         )
     return fig
 
-app.run(port=10000)
+app.run(port=10000, host='0.0.0.0')
