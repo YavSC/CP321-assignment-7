@@ -66,4 +66,4 @@ def updateGraph(option, year):
         )
     return fig
 
-app.run(debug=True)
+app.run()
